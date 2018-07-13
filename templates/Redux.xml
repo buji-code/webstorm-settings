@@ -1,0 +1,8 @@
+<templateSet group="Redux">
+  <template name=":reducer-$name$" value="/* eslint-disable no-unreachable */&#10;&#10;const initialState =&#10;    {&#10;       &#10;    };&#10;&#10;const $name$ = (state = initialState, action) =&gt; {&#10;    switch (action.type) {&#10;        case 'ACTION_CALL':&#10;            return {...state,&#10;                &#10;            };&#10;            break;&#10;        default:&#10;            return state;&#10;    }&#10;};&#10;&#10;export default $name$;&#10;/* eslint-enable no-unreachable */" description="generates a Redux reducer" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,23 @@
+<toolSet name="External Tools">
+  <tool name="Prettier" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="prettier" />
+      <option name="PARAMETERS" value="--write --trailing-comma es5 --jsx-bracket-same-line true --print-width 120 $FilePathRelativeToProjectRoot$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="Prettier Directories" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="prettier" />
+      <option name="PARAMETERS" value="--write $FileDirRelativeToProjectRoot$/**/{*.js,*.jsx}" />
+      <option name="WORKING_DIRECTORY" value="set $ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="Prettier All JS" description="make all js files of a project Pretty." showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="prettier" />
+      <option name="PARAMETERS" value="--jsx-bracket-same-line true --print-width 120 --single-quote --trailing-comma es5 --write source/**/*.js" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
