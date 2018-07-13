@@ -1,2 +1,1 @@
-# webstorm-settings
-For easy access
+# My Webstorm-settings...
