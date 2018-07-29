@@ -1,12 +1,12 @@
 <application>
   <component name="MaterialThemeConfig">
     <option name="version" value="2.7.0" />
-    <option name="selectedTheme" value="SOLARIZED_DARK" />
+    <option name="selectedTheme" value="MONOKAI" />
     <option name="highlightColor" value="80cbc4" />
     <option name="isContrastMode" value="true" />
     <option name="accentColor" value="80cbc4" />
     <option name="compactSidebar" value="true" />
-    <option name="isMaterialTheme" value="false" />
+    <option name="settingsSelectedTab" value="5" />
     <option name="userId" value="11374b44:164e500f8a7:-7fff" />
     <option name="allowDataCollection" value="true" />
   </component>
