@@ -6,4 +6,7 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
+  <action id="Vcs.RefreshStatuses">
+    <keyboard-shortcut first-keystroke="meta alt r" />
+  </action>
 </keymap>
