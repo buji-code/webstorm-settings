@@ -8,6 +8,7 @@
       <mapping pattern="actionExport" type="TypeScript" />
       <mapping pattern="SelectionCellRenderer" type="TypeScript JSX" />
       <mapping pattern="DataGrid" type="TypeScript JSX" />
+      <mapping pattern="NavBarLink" type="TypeScript JSX" />
       <mapping pattern="AgGridPage" type="TypeScript JSX" />
     </extensionMap>
   </component>
