@@ -25,4 +25,9 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name=":ts-react-state" value="constructor (props: Props) {&#10;  super(props);&#10;  this.state = {&#10;    &#10;  }&#10;}" description="Generate a constructor and state declaration for a tsx component" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
