@@ -7,6 +7,7 @@
       <mapping pattern="AcitonEdit" type="TypeScript" />
       <mapping pattern="storageKeys.ts" type="TypeScript" />
       <mapping pattern="actionClipboard" type="TypeScript" />
+      <mapping pattern="mediaAnalyticsTypes" type="TypeScript" />
       <mapping pattern="actionExport" type="TypeScript" />
       <mapping pattern="SelectionCellRenderer" type="TypeScript JSX" />
       <mapping pattern="DataGrid" type="TypeScript JSX" />
