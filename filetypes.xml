@@ -17,6 +17,7 @@
       <mapping pattern="mediaAnalyticsTypes" type="TypeScript" />
       <mapping pattern="dropDownInputModel" type="TypeScript" />
       <mapping pattern="CdnCellRenderer" type="TypeScript" />
+      <mapping pattern="imageSlideShowModel" type="TypeScript" />
       <mapping pattern="SelectionCellRenderer" type="TypeScript JSX" />
       <mapping pattern="DataGrid" type="TypeScript JSX" />
       <mapping pattern="NavBarLink" type="TypeScript JSX" />
