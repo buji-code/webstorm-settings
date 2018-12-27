@@ -17,5 +17,12 @@
         <user-data-dir>$APPLICATION_CONFIG_DIR$/chrome-user-data</user-data-dir>
       </settings>
     </browser>
+    <browser id="b2a9dca7-9d0b-4e1e-98a8-afb19c1328d2" name="Edge" family="EXPLORER" />
+    <browser id="550f24bf-626e-4d60-9a50-966d8bab7824" name="Chrome-Frameless" family="CHROME">
+      <settings>
+        <command-line-options>--args --user-data-dir=&quot;/tmp/chrome_dev_session_2&quot; --disable-web-security --no-first-run --app=http://maps.cqloud.com</command-line-options>
+        <user-data-dir>$APPLICATION_CONFIG_DIR$/chrome-user-data</user-data-dir>
+      </settings>
+    </browser>
   </component>
 </application>
