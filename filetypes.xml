@@ -13,6 +13,7 @@
       <mapping pattern="mediaAnalyticsTypes" type="TypeScript" />
       <mapping pattern="CdnCellRenderer" type="TypeScript" />
       <mapping pattern="Animations" type="TypeScript" />
+      <mapping pattern="trialLogos" type="TypeScript" />
       <mapping pattern="systemModel" type="TypeScript" />
       <mapping pattern="locationInputModel" type="TypeScript" />
       <mapping pattern="stageModel" type="TypeScript" />
