@@ -23,6 +23,7 @@
       <mapping pattern="requestModel.ts" type="TypeScript" />
       <mapping pattern="ProductResultModel" type="TypeScript" />
       <mapping pattern="productComparator" type="TypeScript" />
+      <mapping pattern="networkAlarms" type="TypeScript" />
       <mapping pattern="AgGridPage" type="TypeScript JSX" />
       <mapping pattern="DataGrid" type="TypeScript JSX" />
       <mapping pattern="SelectionCellRenderer" type="TypeScript JSX" />
