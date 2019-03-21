@@ -27,10 +27,17 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
-  <tool name="HygenComponentSimple" description="Generates a new component folder with story, model, provider and e2e tests foundations" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="HygenComponentSimple" description="Generates a new functional component folder with story" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$ProjectFileDir$/node_modules/.bin/hygen" />
       <option name="PARAMETERS" value="component-simple new --path $FilePathRelativeToProjectRoot$ --name $Prompt$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="HygenProvider" description="Generates a new data provider file" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$/node_modules/.bin/hygen" />
+      <option name="PARAMETERS" value="provider new --path $FilePathRelativeToProjectRoot$ --name $Prompt$" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
