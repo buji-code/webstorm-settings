@@ -1,24 +1,26 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="_models" type="PLAIN_TEXT" />
       <mapping pattern="entityHistoryProvider.ts" type="PLAIN_TEXT" />
       <mapping ext="ts___jb_tmp___" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
       <mapping ext="mock" type="PLAIN_TEXT" />
       <mapping pattern="AcitonEdit" type="TypeScript" />
-      <mapping pattern="storageKeys.ts" type="TypeScript" />
       <mapping pattern="OpsDashboardMetrics" type="TypeScript" />
       <mapping pattern="dropDownInputModel" type="TypeScript" />
       <mapping pattern="mediaAnalyticsTypes" type="TypeScript" />
       <mapping pattern="CdnCellRenderer" type="TypeScript" />
       <mapping pattern="Animations" type="TypeScript" />
       <mapping pattern="trialLogos" type="TypeScript" />
+      <mapping pattern="actionClipboard" type="TypeScript" />
       <mapping pattern="systemModel" type="TypeScript" />
       <mapping pattern="locationInputModel" type="TypeScript" />
       <mapping pattern="stageModel" type="TypeScript" />
       <mapping pattern="imageSlideShowModel" type="TypeScript" />
-      <mapping pattern="actionClipboard" type="TypeScript" />
+      <mapping pattern="storageKeys.ts" type="TypeScript" />
       <mapping pattern="actionExport" type="TypeScript" />
       <mapping pattern="requestModel.ts" type="TypeScript" />
       <mapping pattern="ProductResultModel" type="TypeScript" />
