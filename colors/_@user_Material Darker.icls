@@ -4,7 +4,7 @@
     <property name="created">2018-12-09T13:45:23</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.3.1.0.0</property>
-    <property name="modified">2019-10-15T11:40:29</property>
+    <property name="modified">2019-10-15T12:35:55</property>
     <property name="originalScheme">Material Darker</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -548,6 +548,11 @@
       <value>
         <option name="FOREGROUND" value="c792ea" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="CSS.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="f78c6c" />
       </value>
     </option>
     <option name="CSS.PROPERTY_NAME">
@@ -1391,6 +1396,12 @@
     <option name="JFLEX_MACROS_REF">
       <value>
         <option name="FOREGROUND" value="1a1f29" />
+      </value>
+    </option>
+    <option name="JS.CONSOLE">
+      <value>
+        <option name="FOREGROUND" value="eeffff" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="JS.DEBUGGER_STMT">
