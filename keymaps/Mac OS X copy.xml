@@ -15,4 +15,8 @@
   <action id="Vcs.RefreshStatuses">
     <keyboard-shortcut first-keystroke="meta alt r" />
   </action>
+  <action id="emacsIDEAs.AceJump">
+    <keyboard-shortcut first-keystroke="alt m" />
+    <keyboard-shortcut first-keystroke="meta semicolon" />
+  </action>
 </keymap>
