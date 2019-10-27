@@ -12,6 +12,9 @@
   <action id="ManageRecentProjects">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
+  <action id="Tool_External Tools_OpenRealPath">
+    <keyboard-shortcut first-keystroke="alt o" />
+  </action>
   <action id="Vcs.RefreshStatuses">
     <keyboard-shortcut first-keystroke="meta alt r" />
   </action>
