@@ -18,7 +18,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name=":tsReactStyled" value="import * as React from 'react';&#10;import styled, {css} from 'styled-components';&#10;&#10;const $component$View = styled.div`&#10;  ${(props: {}) =&gt; css`&#10;    &#10;  `}&#10;`;&#10;&#10;interface Props {}&#10;&#10;const defaultState = {};&#10;type State = typeof defaultState;&#10;&#10;export default class $component$ extends React.Component&lt;Props, State&gt;  {&#10;    state: State = defaultState;&#10;    render(){&#10;        return (&#10;            &lt;$component$View&gt;&#10;                &#10;            &lt;/$component$View&gt;&#10;        )&#10;    }&#10;}" description="generates and empty typescript react component with styled component" toReformat="true" toShortenFQNames="true">
+  <template name=":tsReactStyled" value="import * as React from 'react';&#10;import styled from 'styled-components';&#10;&#10;const $component$View = styled.div``;&#10;&#10;interface Props {}&#10;&#10;const defaultState = {};&#10;type State = typeof defaultState;&#10;&#10;export default class $component$ extends React.Component&lt;Props, State&gt;  {&#10;    state: State = defaultState;&#10;    render(){&#10;        return (&#10;            &lt;$component$View&gt;&#10;                &#10;            &lt;/$component$View&gt;&#10;        )&#10;    }&#10;}" description="generates and empty typescript react component with styled component" toReformat="true" toShortenFQNames="true">
     <variable name="component" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -30,7 +30,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name=":tsStyledProps" value="const $name$ = styled.$element$`&#10;  ${(props: {}) =&gt; css`&#10;    &#10;  `}&#10;`;" description="styled component declaration with props" toReformat="true" toShortenFQNames="true">
+  <template name=":tsStyledProps" value="const $name$ = styled.$element$&lt;{}&gt;``;" description="styled component declaration with props" toReformat="true" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="element" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -67,6 +67,13 @@
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name=":tsStyled" value="const $name$ = styled.$element$``;" description="styled component declaration with props" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="element" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
 </templateSet>
