@@ -4,6 +4,7 @@
       <mapping pattern="test" type="JSON" />
       <mapping pattern="xmlFile" type="PLAIN_TEXT" />
       <mapping pattern="networkEntity" type="TypeScript" />
+      <mapping pattern="commonStyles" type="TypeScript" />
     </extensionMap>
   </component>
 </application>
