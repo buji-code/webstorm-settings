@@ -51,7 +51,7 @@
   <tool name="HygenBackend" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$ProjectFileDir$/node_modules/.bin/hygen" />
-      <option name="PARAMETERS" value="backend new --path &amp;FilePathRelativeToProjectRoot$ --name $Prompt$" />
+      <option name="PARAMETERS" value="backend new --path $FilePathRelativeToProjectRoot$ --name $Prompt$" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
