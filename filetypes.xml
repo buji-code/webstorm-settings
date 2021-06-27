@@ -7,6 +7,7 @@
       <mapping pattern="xmlFile" type="PLAIN_TEXT" />
       <mapping pattern="networkEntity" type="TypeScript" />
       <mapping pattern="commonStyles" type="TypeScript" />
+      <mapping pattern="projectIcons" type="TypeScript JSX" />
       <mapping pattern="qn-deployment-result" type="tsconfig" />
     </extensionMap>
   </component>
