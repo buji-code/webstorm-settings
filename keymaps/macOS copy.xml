@@ -8,6 +8,9 @@
   <action id="Nx.NxNewGenerateActionGroup">
     <keyboard-shortcut first-keystroke="shift meta y" />
   </action>
+  <action id="NxLoadUnloadModules">
+    <keyboard-shortcut first-keystroke="shift meta alt back_slash" />
+  </action>
   <action id="StringManipulation.Group.Main">
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
