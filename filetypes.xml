@@ -11,6 +11,7 @@
       <mapping pattern="commonStyles" type="TypeScript" />
       <mapping pattern="projectIcons" type="TypeScript JSX" />
       <mapping pattern="qn-deployment-result" type="tsconfig" />
+      <removed_mapping pattern=".env" approved="true" type=".env file" />
     </extensionMap>
   </component>
 </application>
