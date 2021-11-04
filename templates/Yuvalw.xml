@@ -1,0 +1,7 @@
+<templateSet group="Yuvalw">
+  <template name=":tryCatch" value="try {&#10;&#10;} catch (e) {&#10;&#10;}" description="generates an empty try catch" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
