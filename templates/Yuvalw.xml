@@ -4,4 +4,10 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name=":region" value="//region [[ $name$ ]]&#10;//endregion" description="generates region block" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
