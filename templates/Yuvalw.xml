@@ -1,0 +1,30 @@
+<templateSet group="Yuvalw">
+  <template name=":tryCatch" value="try {&#10;&#10;} catch (e) {&#10;&#10;}" description="generates an empty try catch" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=":region" value="//region [[ $name$ ]]&#10;//endregion" description="generates region block" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=":useState" value="const [$stateName$, set$setStateName$] = useState($value$);" description="generates a useState hook" toReformat="false" toShortenFQNames="true">
+    <variable name="stateName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="setStateName" expression="capitalize(stateName)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name=":useTState" value="const [$stateName$, set$setStateName$] = useState&lt;$type$&gt;($value$);" description="generates a useState hook" toReformat="false" toShortenFQNames="true">
+    <variable name="stateName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="setStateName" expression="capitalize(stateName)" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

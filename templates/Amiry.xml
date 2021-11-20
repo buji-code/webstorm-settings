@@ -1,0 +1,85 @@
+<templateSet group="Amiry">
+  <template name=":stateless-$component$" value="import React from 'react';&#10;&#10;const $component$ = props =&gt; {&#10;    return (&#10;        &lt;div&gt;&#10;         &#10;        &lt;/div&gt;&#10;    )&#10;};&#10;&#10;export default $component$;" description="generates an empty react functional component" toReformat="true" toShortenFQNames="true">
+    <variable name="component" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name=":react-$component$" value="import React, { Component } from 'react';&#10;import styled from 'styled-components';&#10;&#10;const View = styled.div`&#10;`;&#10;&#10;export default class $component$ extends Component {&#10;    constructor(props){&#10;        super(props);&#10;        this.state = {&#10;            &#10;        }&#10;    }&#10;    render() {&#10;        return (&#10;            &lt;View&gt;&#10;                &#10;            &lt;/View&gt;&#10;        )&#10;    }&#10;}" description="generates an empty react component" toReformat="true" toShortenFQNames="true">
+    <variable name="component" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name=":tsReact" value="import * as React from 'react';&#10;&#10;interface Props {&#10;}&#10;const defaultState = {};&#10;type State = typeof defaultState;&#10;export default class $component$ extends React.Component&lt;Props, State&gt;  {&#10;    state: State = defaultState;&#10;    render(){&#10;        return (&#10;            &lt;div&gt;&#10;                &#10;            &lt;/div&gt;&#10;        )&#10;    }&#10;}" description="generates an empty typescript react component" toReformat="true" toShortenFQNames="true">
+    <variable name="component" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name=":tsReactStyled" value="import * as React from 'react';&#10;import styled from 'styled-components';&#10;&#10;const $component$View = styled.div``;&#10;&#10;interface Props {}&#10;&#10;const defaultState = {};&#10;type State = typeof defaultState;&#10;&#10;export default class $component$ extends React.Component&lt;Props, State&gt;  {&#10;    state: State = defaultState;&#10;    render(){&#10;        return (&#10;            &lt;$component$View&gt;&#10;                &#10;            &lt;/$component$View&gt;&#10;        )&#10;    }&#10;}" description="generates and empty typescript react component with styled component" toReformat="true" toShortenFQNames="true">
+    <variable name="component" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name=":tsReactState" value="constructor (props: Props) {&#10;  super(props);&#10;  this.state = {&#10;    &#10;  }&#10;}" description="Generate a constructor and state declaration for a tsx component" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name=":tsStyledProps" value="const $name$ = styled.$element$&lt;{}&gt;``;" description="styled component declaration with props" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="element" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name=":mediaMax" value="@media only screen and (max-width: $width$) {&#10;}" description="creates a max width media query" toReformat="false" toShortenFQNames="true">
+    <variable name="width" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name=":mediaMin" value="@media only screen and (min-width: $width$) {&#10;}" description="min width media query" toReformat="false" toShortenFQNames="true">
+    <variable name="width" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name=":mediaMinHover" value="@media only screen and (min-width: $width$) {&#10;    &amp;:hover {&#10;        &#10;    }&#10;}" description=":hover rule inside a min width media query" toReformat="true" toShortenFQNames="true">
+    <variable name="width" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name=":centerFlex" value="display: flex;&#10;justify-content: center;&#10;align-items: center;" description="generates styles for a flex container with vertical &amp; horizontal centered children" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name=":tsReactDumb" value="import * as React from &quot;react&quot;;&#10;import styled, { css } from &quot;styled-components&quot;;&#10;&#10;const $name$View = styled.div`&#10;  ${(props: {}) =&gt; css``};&#10;`;&#10;&#10;export interface Props {}&#10;&#10;export const $name$ = ({ ...props }: Props) =&gt; {&#10;  return (&#10;    &lt;$name$View&gt;&#10;    &#10;    &lt;/$name$View&gt;&#10;  );&#10;};&#10;" description="styled dumb hooks component" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name=":tsStyled" value="const $name$ = styled.$element$``;" description="styled component declaration with props" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="element" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name=":props" value="${props =&gt; props.$prop$}" description="inject css props" toReformat="false" toShortenFQNames="true">
+    <variable name="prop" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>
