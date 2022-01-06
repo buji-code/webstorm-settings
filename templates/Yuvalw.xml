@@ -27,4 +27,10 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name=":cl" value="console.log($value$)" description="genarates console.log" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
