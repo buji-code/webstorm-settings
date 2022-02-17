@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="plain" type="AUTO_DETECTED" />
       <mapping pattern="temp" type="AUTO_DETECTED" />
       <mapping pattern="test" type="JSON" />
       <mapping pattern="qnDeplyomentRes" type="JSON" />
