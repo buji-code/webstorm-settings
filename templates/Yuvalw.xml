@@ -33,4 +33,11 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name=":col" value="{&#10;      headerName: &quot;$name$&quot;,&#10;      renderer: new GridValueRenderer({&#10;        valueGetter: (entity) =&gt; entity.$field$,&#10;      }),&#10;    }," description="generate QwiltGridColumnDef value" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="field" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
