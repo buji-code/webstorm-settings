@@ -5,6 +5,10 @@
   <action id="Editor LRU">
     <keyboard-shortcut first-keystroke="shift meta back_slash" />
   </action>
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
+  <action id="NewScratchFile" />
   <action id="Nx.NxNewGenerateActionGroup">
     <keyboard-shortcut first-keystroke="shift meta y" />
   </action>
