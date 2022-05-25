@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="plain" type="AUTO_DETECTED" />
       <mapping pattern="temp" type="AUTO_DETECTED" />
+      <mapping pattern="ips" type="AUTO_DETECTED" />
       <mapping pattern="test" type="JSON" />
       <mapping pattern="qnDeplyomentRes" type="JSON" />
       <mapping pattern=".env.local" type="PLAIN_TEXT" />
