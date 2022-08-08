@@ -6,10 +6,11 @@
         <option value="file://$USER_HOME$/Downloads/backups_test_test (1)/resources/secrets/namespaces/management-automation/management-automation-root-secret.json" />
         <option value="file://$USER_HOME$/Downloads/backups_test_test (2)/resources/controlplanes.qwilt.qwilt.io/namespaces/management-automation/management-automation.json" />
         <option value="file://$USER_HOME$/Downloads/secret.yaml" />
+        <option value="file://$USER_HOME$/Downloads/ecp-sye-dev_backups_demo.demo.backup.20220804105909_demo.demo.backup.20220804105909/resources/controlplanes.qwilt.qwilt.io/namespaces/demo/demo.json" />
       </list>
     </option>
     <option name="frameInfo">
-      <frame x="84" y="78" width="1400" height="954" />
+      <frame x="213" y="31" width="1400" height="954" />
     </option>
   </component>
 </application>
