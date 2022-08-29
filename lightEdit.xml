@@ -8,10 +8,11 @@
         <option value="file://$USER_HOME$/Downloads/secret.yaml" />
         <option value="file://$USER_HOME$/Downloads/ecp-sye-dev_backups_demo.demo.backup.20220804105909_demo.demo.backup.20220804105909/resources/controlplanes.qwilt.qwilt.io/namespaces/demo/demo.json" />
         <option value="file://$USER_HOME$/Downloads/ecp-sye-dev_backups_test.test.backup.20220808080144_test.test.backup.20220808080144/resources/controlplanes.qwilt.qwilt.io/namespaces/test/test.json" />
+        <option value="file://$USER_HOME$/Downloads/dev-euw3_backups_cp-backup.cp.backup.20220810165149_cp-backup.cp.backup.20220810165149/resources/controlplanes.qwilt.qwilt.io/namespaces/cp-backup/cp.json" />
       </list>
     </option>
     <option name="frameInfo">
-      <frame x="213" y="38" width="1400" height="954" />
+      <frame x="160" y="88" width="1400" height="954" />
     </option>
   </component>
 </application>
