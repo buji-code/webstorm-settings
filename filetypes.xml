@@ -2,15 +2,16 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="plain" type="AUTO_DETECTED" />
-      <mapping pattern="temp" type="AUTO_DETECTED" />
       <mapping pattern="ips" type="AUTO_DETECTED" />
+      <mapping pattern="check-circle" type="AUTO_DETECTED" />
+      <mapping pattern="temp" type="AUTO_DETECTED" />
       <mapping pattern="test" type="JSON" />
       <mapping pattern="qnDeplyomentRes" type="JSON" />
       <mapping pattern=".env.local" type="PLAIN_TEXT" />
       <mapping pattern="xmlFile" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping pattern="networkEntity" type="TypeScript" />
       <mapping pattern="commonStyles" type="TypeScript" />
+      <mapping pattern="networkEntity" type="TypeScript" />
       <mapping pattern="projectIcons" type="TypeScript JSX" />
       <mapping pattern="qn-deployment-result" type="tsconfig" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
