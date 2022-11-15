@@ -9,10 +9,11 @@
         <option value="file://$USER_HOME$/Downloads/ecp-sye-dev_backups_demo.demo.backup.20220804105909_demo.demo.backup.20220804105909/resources/controlplanes.qwilt.qwilt.io/namespaces/demo/demo.json" />
         <option value="file://$USER_HOME$/Downloads/ecp-sye-dev_backups_test.test.backup.20220808080144_test.test.backup.20220808080144/resources/controlplanes.qwilt.qwilt.io/namespaces/test/test.json" />
         <option value="file://$USER_HOME$/Downloads/dev-euw3_backups_cp-backup.cp.backup.20220810165149_cp-backup.cp.backup.20220810165149/resources/controlplanes.qwilt.qwilt.io/namespaces/cp-backup/cp.json" />
+        <option value="file://$USER_HOME$/Downloads/ecp-sye-dev_backups_erez.poc3.backup_erez.poc3.backup/resources/controlplanes.qwilt.qwilt.io/namespaces/erez/poc3.json" />
       </list>
     </option>
     <option name="frameInfo">
-      <frame x="160" y="88" width="1400" height="954" />
+      <frame x="160" y="78" width="1400" height="954" />
     </option>
   </component>
 </application>
