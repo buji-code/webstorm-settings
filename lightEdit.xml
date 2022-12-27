@@ -11,6 +11,7 @@
         <option value="file://$USER_HOME$/Downloads/dev-euw3_backups_cp-backup.cp.backup.20220810165149_cp-backup.cp.backup.20220810165149/resources/controlplanes.qwilt.qwilt.io/namespaces/cp-backup/cp.json" />
         <option value="file://$USER_HOME$/Downloads/ecp-sye-dev_backups_erez.poc3.backup_erez.poc3.backup/resources/controlplanes.qwilt.qwilt.io/namespaces/erez/poc3.json" />
         <option value="file://$USER_HOME$/.kube/config" />
+        <option value="file://$USER_HOME$/.docker/features.json" />
       </list>
     </option>
     <option name="frameInfo">
